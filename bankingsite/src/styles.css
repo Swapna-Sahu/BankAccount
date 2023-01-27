@@ -1,0 +1,85 @@
+.container {
+    text-align: center;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background-color: aliceblue;
+  }
+  
+  .App-Column {
+    flex-direction: column;
+  }
+  
+  .login-container {
+    width: 400px;
+  }
+  
+  .form {
+    display: flex;
+    border: 1px solid #ddd;
+    flex-direction: column;
+    padding: 20px;
+    margin-left: 40%;
+    width: 200px;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+  }
+  
+  p {
+    margin-top: 0;
+  }
+  
+  input {
+    margin: 15px 0;
+    padding: 10px;
+  }
+  
+  .submit {
+    padding: 10px;
+  }
+  
+  .error {
+    color: red;
+    font-weight: bold;
+  }
+  
+  .useContext {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: 20px auto 500px;
+  }
+  
+  .m-table{
+    
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 2%;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+  }
+   table, th, td, tr {
+    border: 1px solid black;
+    padding: 5px;
+    color: aliceblue
+  }
+  table {
+    background-color: rgb(214, 210, 210);
+  }
+  th {
+    background-color: #9b9bf3;
+  }
+  td {
+    background-color: white;
+    color: black
+  }
+  .ipayblock{
+    background-color: cornflowerblue;
+    color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 20px;
+    font-weight: 600;
+  }

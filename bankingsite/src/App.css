@@ -1,0 +1,111 @@
+body{
+  background-color: aliceblue;
+}
+
+.App {
+  text-align: center;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+
+.App-Column {
+  flex-direction: column;
+}
+
+.login-container {
+  width: 100%;
+}
+
+.form {
+  display: flex;
+  border: 1px solid #ddd;
+  flex-direction: column;
+  padding: 70px;
+  margin-top: 10%;
+  background-color: #8594ae;
+}
+
+p {
+  margin-top: 0;
+}
+
+input {
+  margin: 15px 0;
+  padding: 10px;
+}
+
+.submit {
+  padding: 10px;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
+
+.useContext {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin: 20px auto 500px;
+}
+.home{
+  background-color: #cad4e6;
+}
+img{
+  position: absolute;
+  left: 20px;
+}
+.pages{
+  padding-bottom: 25px;
+}
+
+.navContainer {
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+  .nav-center {
+    width: 90vw;
+    margin: 0 auto;
+    max-width: var(--max-width);
+  }
+  .nav-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-block: 20px;
+  }
+  
+  .nav-links {
+    display:inline;
+  }
+
+
+  .App-link {
+    padding: 20px;
+  }
+  .App-link:focus, .App-link:active {
+    color: red;
+  }
+
+.chat-container{
+  background-color: cornflowerblue;
+    color: white;
+    width: 200px;
+    padding: 20px;
+    position: fixed;
+    right: 5px;
+    bottom: 0px;
+}
+.support{
+  margin-right: 20%;
+  margin-left: 20%;
+  padding: 20px;
+  margin-top: 10%;
+  background-color: lavender;
+}
